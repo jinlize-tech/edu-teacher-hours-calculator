@@ -1,0 +1,25 @@
+{
+  "number": 48,
+  "product_id": "JLZ-EDU-SK-038",
+  "chinese_name": "教师课时统计",
+  "english_name": "Teacher Hours Calculator",
+  "repository_name": "edu-teacher-hours-calculator",
+  "product_type": "Skill",
+  "category": "04 教务运营中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-teacher-hours-calculator-v1.0.0.zip",
+  "calculator": true,
+  "core_input": "教师名单、课程、班次、实际授课记录、请假代课、规则和统计周期",
+  "main_output": "课时明细、汇总表、异常记录、计算口径和复核清单",
+  "package_entries": [
+    "edu-teacher-hours-calculator/SKILL.md",
+    "edu-teacher-hours-calculator/references/DOMAIN_GUIDE.md",
+    "edu-teacher-hours-calculator/references/EXAMPLES.md",
+    "edu-teacher-hours-calculator/templates/OUTPUT_TEMPLATE.md",
+    "edu-teacher-hours-calculator/scripts/calculate.js"
+  ]
+}

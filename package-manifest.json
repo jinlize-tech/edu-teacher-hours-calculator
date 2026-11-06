@@ -1,0 +1,19 @@
+{
+  "product_id": "JLZ-EDU-SK-038",
+  "repository_name": "edu-teacher-hours-calculator",
+  "product_type": "Skill",
+  "version": "1.0.0",
+  "package_path": "dist/edu-teacher-hours-calculator-v1.0.0.zip",
+  "sha256": "2E334325005541676C6C5B3D10ABEB3923001FE0560DDC96D89993D9E5670EDC",
+  "bytes": 5456,
+  "entries": [
+    "edu-teacher-hours-calculator/SKILL.md",
+    "edu-teacher-hours-calculator/references/DOMAIN_GUIDE.md",
+    "edu-teacher-hours-calculator/references/EXAMPLES.md",
+    "edu-teacher-hours-calculator/templates/OUTPUT_TEMPLATE.md",
+    "edu-teacher-hours-calculator/scripts/calculate.js"
+  ],
+  "built_at": "2026-11-06T22:19:14.4649742+08:00",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED"
+}
