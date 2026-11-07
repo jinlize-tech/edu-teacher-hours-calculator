@@ -1,0 +1,71 @@
+[
+  {
+    "id": "normal",
+    "layer": "T4_DETERMINISTIC_FUNCTION",
+    "input_file": "tests/calculator-cases/normal.json",
+    "expected_exit_code": 0,
+    "expected": {
+      "total": {
+        "balanceHours": 0,
+        "deliveredHours": 17,
+        "substituteHours": 2,
+        "makeupHours": 1,
+        "scheduledHours": 18
+      },
+      "status": "ok"
+    }
+  },
+  {
+    "id": "missing-entries",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/missing-entries.json",
+    "expected_exit_code": 2,
+    "expected": {
+      "errors": [
+        "教师课时明细不能为空"
+      ],
+      "status": "invalid"
+    }
+  },
+  {
+    "id": "negative-hours",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/negative-hours.json",
+    "expected_exit_code": 2,
+    "expected": {
+      "errors": [
+        "教师A.scheduledHours必须是非负有限数值"
+      ],
+      "status": "invalid"
+    }
+  },
+  {
+    "id": "zero-hours",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/zero-hours.json",
+    "expected_exit_code": 0,
+    "expected": {
+      "total": {
+        "balanceHours": 0,
+        "deliveredHours": 0,
+        "substituteHours": 0,
+        "makeupHours": 0,
+        "scheduledHours": 0
+      },
+      "status": "ok"
+    }
+  },
+  {
+    "id": "extreme-hours",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/extreme-hours.json",
+    "expected_exit_code": 0,
+    "expected": {
+      "total": {
+        "deliveredHours": 1000000,
+        "scheduledHours": 1000000
+      },
+      "status": "ok"
+    }
+  }
+]
