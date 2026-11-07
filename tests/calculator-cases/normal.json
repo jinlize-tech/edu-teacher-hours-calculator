@@ -3,15 +3,15 @@
     {
       "deliveredHours": 9,
       "makeupHours": 1,
-      "substituteHours": 0,
       "scheduledHours": 10,
+      "substituteHours": 0,
       "teacher": "教师A"
     },
     {
       "deliveredHours": 8,
       "makeupHours": 0,
-      "substituteHours": 2,
       "scheduledHours": 8,
+      "substituteHours": 2,
       "teacher": "教师B"
     }
   ]

@@ -6,11 +6,11 @@
     "expected_exit_code": 0,
     "expected": {
       "total": {
-        "balanceHours": 0,
         "deliveredHours": 17,
-        "substituteHours": 2,
+        "balanceHours": 0,
         "makeupHours": 1,
-        "scheduledHours": 18
+        "scheduledHours": 18,
+        "substituteHours": 2
       },
       "status": "ok"
     }
@@ -46,11 +46,11 @@
     "expected_exit_code": 0,
     "expected": {
       "total": {
-        "balanceHours": 0,
         "deliveredHours": 0,
-        "substituteHours": 0,
+        "balanceHours": 0,
         "makeupHours": 0,
-        "scheduledHours": 0
+        "scheduledHours": 0,
+        "substituteHours": 0
       },
       "status": "ok"
     }

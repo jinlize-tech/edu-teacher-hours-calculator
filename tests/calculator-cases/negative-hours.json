@@ -3,8 +3,8 @@
     {
       "deliveredHours": 0,
       "makeupHours": 0,
-      "substituteHours": 0,
       "scheduledHours": -1,
+      "substituteHours": 0,
       "teacher": "教师A"
     }
   ]
