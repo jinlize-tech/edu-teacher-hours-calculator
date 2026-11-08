@@ -14,7 +14,7 @@ const entries = (Array.isArray(input.entries) ? input.entries : []).map((entry, 
   return normalized;
 });
 if (errors.length) {
-  console.log(JSON.stringify({status:'invalid',formula_version:'1.0.2',errors}, null, 2));
+  console.log(JSON.stringify({status:'invalid',formula_version:'1.1.0',errors}, null, 2));
   process.exit(2);
 }
 const total = entries.reduce((acc, entry) => {
@@ -25,4 +25,4 @@ const total = entries.reduce((acc, entry) => {
   return acc;
 }, {scheduledHours:0,deliveredHours:0,makeupHours:0,substituteHours:0});
 total.balanceHours = Number((total.deliveredHours + total.makeupHours - total.scheduledHours).toFixed(2));
-console.log(JSON.stringify({status:'ok',formula_version:'1.0.2',entries,total}, null, 2));
+console.log(JSON.stringify({status:'ok',formula_version:'1.1.0',entries,total}, null, 2));

@@ -1,18 +1,18 @@
 {
   "entries": [
     {
-      "deliveredHours": 9,
-      "makeupHours": 1,
       "scheduledHours": 10,
+      "deliveredHours": 9,
+      "teacher": "教师A",
       "substituteHours": 0,
-      "teacher": "教师A"
+      "makeupHours": 1
     },
     {
-      "deliveredHours": 8,
-      "makeupHours": 0,
       "scheduledHours": 8,
+      "deliveredHours": 8,
+      "teacher": "教师B",
       "substituteHours": 2,
-      "teacher": "教师B"
+      "makeupHours": 0
     }
   ]
 }
